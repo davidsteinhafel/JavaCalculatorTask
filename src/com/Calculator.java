@@ -1,35 +1,34 @@
 package com;
 
 public class Calculator {
-	
-	public static void multiplication(int x, int y) {
-		int first;
-		int second;
+
+	public static void multiplication(double x, double y) {
 		
-		first = x;
-		second = y;
+		double result;
 		
-		System.out.println(first * second);
+		result = x * y;
+		
+		System.out.println(result);
 	}
-	
-	public static void subtraction(int x, int y) {
-		int first;
-		int second;
+
+	public static void subtraction(double x, double y) {
 		
-		first = x;
-		second = y;
+		double result;
+
 		
-		System.out.println(first - second);
+		result = x - y;
+
+		System.out.println(result);
 	}
-	
-	public static void division(int x, int y) {
-		int first;
-		int second;
+
+	public static void division(double x, double y) {
 		
-		first = x;
-		second = y;
+		double result;
 		
-		System.out.println(first % second);
+		
+		result = x / y;
+
+		System.out.println(result);
 	}
 
 	public static void main(String[] args) {
