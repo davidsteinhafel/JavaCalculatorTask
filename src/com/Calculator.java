@@ -31,11 +31,4 @@ public class Calculator {
 		System.out.println(result);
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		multiplication(5, 5);
-		division(5, 5);
-		subtraction(5, 20);
-	}
-
 }
