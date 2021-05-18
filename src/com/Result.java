@@ -13,7 +13,7 @@ public class Result {
 		System.out.println("Biology Mark: " + Biology);
 		System.out.println("\nOverall Mark: " + total);
 		System.out.println("\nYour percent was: " + examOverall());
-		//TODO: passing() make this method display all!
+		passing();
 	}
 
 	public static double examOverall() {
