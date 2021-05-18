@@ -33,21 +33,21 @@ public class JavaStrings {
 	public static void verticalString(String str) {
 
 		for (int i = 0; i < str.length(); ++i) {
-			System.out.println(str.charAt(i) + "\n");
+			System.out.println(str.charAt(i));
 		}
 
 	}
 
 	public static void verticalWord(String wrd) {
-		String [] wrdArray;
+		String newWrd = "";
 		if (!(" ".equals(wrd.substring(0, 1))) || !(" ".equals(wrd.substring(wrd.length() - 1)))) {
 			for (int i = 0; i < wrd.length(); i++) {
-				wrdArray = new String[i];
-				for(String item : wrdArray) {
-					System.out.print(item);
+				newWrd += wrd.charAt(i);
+				if (wrd.charAt(i) == ' ') {
+					newWrd += "\n";
 				}
-				System.out.println(wrd.charAt(i));
 			}
+			System.out.println(newWrd);
 		}
 
 	}
@@ -56,7 +56,7 @@ public class JavaStrings {
 		printWeather();
 		substringWeather();
 		System.out.println("Number of words in the string: " + countString("what time is it right now"));
-		verticalString("hello friend");
+		// verticalString("hello friend");
 		verticalWord("today was a lot of fun");
 	}
 }
