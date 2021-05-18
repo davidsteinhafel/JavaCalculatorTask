@@ -1,5 +1,5 @@
 package com;
-import java.util.Scanner;
+
 
 public class Runner {
 
@@ -8,13 +8,9 @@ public class Runner {
 		Result.examOverall();
 		Result.passing();
 		Result.displayResults();
-
-		Scanner in = new Scanner(System.in);
-		 
-        String s = in.nextLine();
-        System.out.println("You entered string " + s);
-        
-        in.close();
+		arrayTask.displayArray();
+		arrayTask.arrayMaker();
+		
 	}
 
 }

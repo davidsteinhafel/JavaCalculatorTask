@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class arrayTask {
 	public static int[] numArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-	public static ArrayList<Integer> numbers = new ArrayList<Integer>(5);
+	
 	
 	public static void displayArray() 
 	{
@@ -15,17 +15,17 @@ public class arrayTask {
 	
 	public static void arrayMaker() 
 	{
-		for(int i = 0; i > 0; ++i) 
+		ArrayList<Integer> numbers = new ArrayList<>();
+		for(int i = 0; i <= 10; ++i) 
 		{
 			int x;
 			x = i;
-			
-			if(x > 0) 
-			{
-				
-			}
+			x *= 10;
+			System.out.println(x);
+			numbers.add(x);
 			
 		}
+		System.out.println(numbers);
 	}
 	
 
