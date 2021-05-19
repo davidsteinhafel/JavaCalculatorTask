@@ -12,9 +12,12 @@ public class Person {
 	this.age = age;
 	this.gender = gender;
 	}
-	public static Person David = new Person("David", 30, "Male");
+	
 	public static void read(Person person, Book book) {
 		System.out.println(person.name + " is currently reading: " + book.title);
+	}
+	public static void pet(Person person, Dog dog) {
+		System.out.println(person.name + " is petting a " + dog.breed + " that is " + dog.age + "yrs old and is a " + dog.breed);
 	}
 	public boolean isStillBreathing() {
 	return isBreathing;
