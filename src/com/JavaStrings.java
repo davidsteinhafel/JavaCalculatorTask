@@ -1,12 +1,13 @@
 package com;
 
+
 public class JavaStrings {
 	public static String yesterday = "yesterday it was raining";
 	public static String today = "today it is sunny";
 
 	public static void printWeather() {
 		System.out.println(today.toUpperCase() + ", " + yesterday.toUpperCase());
-
+		
 	}
 
 	public static void substringWeather() {

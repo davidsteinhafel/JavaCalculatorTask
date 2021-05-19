@@ -10,6 +10,7 @@ public class Runner {
 		arrayTask.displayArray();
 		arrayTask.arrayMaker();
 		JavaStrings.displayCompleted();
+		Person.read(Person.David, Book.book1);
 		
 	}
 

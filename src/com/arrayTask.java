@@ -2,7 +2,8 @@ package com;
 import java.util.ArrayList;
 
 public class arrayTask {
-	public static int[] numArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	
+public static int[] numArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	
 	
 	public static void displayArray() 
@@ -11,7 +12,8 @@ public class arrayTask {
 			System.out.println("number: " + i);
 			
 		}
-	}
+	} 
+	
 	
 	public static void arrayMaker() 
 	{
@@ -27,7 +29,6 @@ public class arrayTask {
 		}
 		System.out.println(numbers);
 	}
-	
 
 }
 /*
