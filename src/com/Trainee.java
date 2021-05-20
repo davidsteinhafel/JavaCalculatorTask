@@ -12,7 +12,7 @@ public class Trainee extends Employee {
 	
 	public Trainee(String name, String employeeRole, int employeeId, double bursary, List<String> subjectsLearned) {
 		
-		super(employeeRole, employeeRole, employeeId, bursary, calculateWeeklySalary(0, 0));
+		super(employeeRole, employeeRole, employeeId, bursary, calculateWeeklySalary(0));
 		
 		
 		bursary = 0;
