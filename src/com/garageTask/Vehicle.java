@@ -1,12 +1,22 @@
 package com.garageTask;
 
-public class Vehicle extends Car {
+public abstract class Vehicle {
+	 
+ 	protected int id;
+	protected String model;
+	private String make;
+	private int wheels;
+	private int seats;
+	protected double cost;
+	private int year;
 
-	public Vehicle(int id, String model, int year, int wheels, int seats, int cost) {
-		super(id, model, year, wheels, seats, cost);
-		// TODO Auto-generated constructor stub
+	public Vehicle(int id, String model, String make, double cost, int year) {
+		this.id = id;
+		this.model = model;
+		this.make = make;
+		this.cost = cost;
+		this.year = year;
+
 	}
 	
-	//mis - read task so most of whats in car should have been done in here
-
 }
