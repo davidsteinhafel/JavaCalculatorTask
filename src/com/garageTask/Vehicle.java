@@ -4,11 +4,11 @@ public abstract class Vehicle {
 	 
  	protected int id;
 	protected String model;
-	private String make;
-	private int wheels;
-	private int seats;
+	protected String make;
+	protected int wheels;
+	protected int seats;
 	protected double cost;
-	private int year;
+	protected int year;
 
 	public Vehicle(int id, String model, String make, double cost, int year) {
 		this.id = id;
