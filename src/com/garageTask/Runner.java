@@ -1,0 +1,13 @@
+package com.garageTask;
+
+import java.util.ArrayList;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Car> carList = new ArrayList<>();
+		
+	}
+
+}
